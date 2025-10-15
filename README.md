@@ -1,8 +1,13 @@
-# Project XYZ
+# Healthcare Insurance - My First Individual project
 
-**Project XYZ** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
+**Healthcare Insurance** is a dataset found in kaggle that I intend to use for my individual project. 
 
-# ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+* The project focuses on analyzing health insurance data to understand the correlations between variables, discover underlying trends, and identify patterns that are not easily explained. 
+
+* The aim is to clean, transform, and engineer the data to build a robust pipeline for visualizations. Hypothesis testing will be employed to draw meaningful and statistically valid conclusions from the analysis.
+
+
+# ![Health Care Insurance](data-analytics-charts.jpg)
 
 
 ## Dataset Content
