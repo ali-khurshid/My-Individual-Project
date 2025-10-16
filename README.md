@@ -67,8 +67,8 @@ I used Github for the following tasks.
 
 **Day 2 — Analysis, Visualisation & Insights**
 
-1. Data Visualisation (Matplotlib, Seaborn, Plotly)
-2. Creating a set of hypothesis and validation rules.
+1. Creating a set of hypothesis and validation rules.
+2. Data Visualisation (Matplotlib, Seaborn, Plotly) 
 3. Descriptive Statistics & Correlation Analysis 
 4. Key Insights, discussion and conclusion.
 
@@ -128,7 +128,7 @@ I used Github for the following tasks.
     * LabelEncoder
 
 
-## Conclusion
+## Discussion and Conclusion
 
 * **Hypothesis 1** was debunked --> Smoking is not a driving force for weight gain.
 
