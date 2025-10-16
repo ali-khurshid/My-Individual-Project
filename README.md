@@ -154,7 +154,7 @@ The following links will open in a web browser (preferably Chrome) to provide an
 
 [Insurance costs vs Age & BMI - Interactive Plot](<jupyter_notebooks/My Code/Scatterplot.html>)
 
-[Insurance costs vs BMI category, Region and Smoker Status](<jupyter_notebooks/My Code/Interactive Scatterplot.html>)
+[Insurance costs vs BMI category, Region, Age Group and Smoker Status](<jupyter_notebooks/My Code/Interactive Scatterplot.html>)
 
 
 * **Hypothesis 5**: Smoking is clearly a significant contributor to higher healthcare costs, demonstrated by its strong correlation of 0.787 with insurance charges. Age is the next most influential factor, with a moderate correlation of 0.299, indicating that older individuals generally face higher costs. BMI, in contrast, has a weaker correlation, suggesting a lesser impact on insurance charges. Geographic regions show relatively weak negative correlations. These findings underscore that smoking is the most substantial driver of increased insurance costs among the variables analyzed, reflecting its well-documented health risks and associated expenses.
