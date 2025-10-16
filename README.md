@@ -10,7 +10,7 @@
 
 
 ## Dataset Content
-* The dataset provides information on clients' personal characteristics (such as gender, age, family size and smoking status) as well as geographical location (the region of the country they belong to).
+* The dataset provides information on clients personal characteristics (such as gender, age, family size and smoking status) as well as geographical location (the region of the country they belong to).
 
 * The dataset further tells us how much each client is charged for their healthcare insurance.
 
@@ -23,7 +23,7 @@ The complete dataset can be found here [Healthcare insurance](<jupyter_notebooks
 * A set of hypothesis will be formulated and tested using tools such as data transformation, feature engineering as well as data visualisation using Python tools such as Matplotlib, Seaborn and Plotly.
 
 
-## Hypothesis and how to validate?
+## Hypothesis and Validation
 
 * **Hypothesis 1**: Smoking affects body fat distribution, increasing abdominal fat and influencing BMI. This variation in BMI induced by smoking contributes to differences in health insurance costs
 
@@ -50,8 +50,8 @@ The complete dataset can be found here [Healthcare insurance](<jupyter_notebooks
 
 I used Github for the following tasks.
 
-* Project Board to help me plan and keep track of my progress
-* Regularly push my updated code to my Githuib repo.
+* [Project Board](https://github.com/users/ali-khurshid/projects/2) to help me plan and keep track of my progress
+* Regularly push my updated code to [Github repo](https://github.com/ali-khurshid/My-Individual-Project)
 
 Day 1 — Data Understanding & Preparation
  
@@ -68,22 +68,38 @@ Day 2 — Analysis, Visualisation & Insights
 
 
 ## The rationale to map the business requirements to the Data Visualisations
-* List your business requirements and a rationale to map them to the Data Visualisations
+
+* The **first visualization** is a bar chart showing smoker and non-smoker counts across BMI categories—Underweight, Normal, Overweight, and Obese—highlighting the relationship between smoking status and BMI.
+
+* The **second visualization** is a boxplot comparing insurance charges between smokers and non-smokers, highlighting differences in distribution and median costs. This helps reveal the significant impact smoking status has on insurance expenses. 
+
+* The **third visualization** is a boxplot comparing insurance charges across geographic locations, highlighting differences in median, interquartile range, and outliers. This helps assess the impact of location on insurance costs.
+
+* The **fourth visualization** is a scatterplot that illustrates how age and BMI together influence insurance costs. It reveals trends such as whether increasing age and BMI are associated with higher charges. Additionally, this plot helps identify clusters or anomalies, offering insights into extended risk factors beyond the known variables.
+
+* The **fifth visualization** is a faceted scatterplot that groups multiple categorical and numerical variables—such as smoker status, BMI category, age group, and geographic location—to confirm and reinforce patterns observed in previous visualizations. By displaying these variables simultaneously, it provides a comprehensive view of the data, helping to validate earlier findings and uncover any additional insights. This approach enhances understanding by revealing how different factors interact and contribute to insurance costs, making it a valuable tool for thorough risk assessment and data interpretation.
+
+* The **sixth and final visualization** is a correlation heatmap that definitively shows which variables have the strongest impact on insurance charges versus those with weak or no correlation. By color-coding correlation coefficients, this heatmap clearly highlights key predictors—such as age, BMI, and smoking status—that significantly influence insurance costs, while also identifying variables with minimal effect. This visual tool is essential for confirming relationships found in prior analyses and guiding targeted strategies in insurance risk assessment and pricing
 
 ## Analysis techniques used
-* List the data analysis methods used and explain limitations or alternative approaches.
-* How did you structure the data analysis techniques. Justify your response.
-* Did the data limit you, and did you use an alternative approach to meet these challenges?
-* How did you use generative AI tools to help with ideation, design thinking and code optimisation?
+
+* Performed extract, transform, and feature engineering tasks using Jupyter notebooks.
+
+* Created new columns in the DataFrame, such as BMI category and Age Group, utilizing custom functions and pandas methods.
+
+* Engineered categorical variables to prepare the data for visualization, specifically for a Plotly correlation heatmap.
+
+* Developed various visualizations including bar charts, scatter plots, box plots, and heatmap correlation maps to explore relationships within the data. The charts were updated in size with axes labeling and titles.
+
 
 ## Ethical considerations
-* Were there any data privacy, bias or fairness issues with the data?
-* How did you overcome any legal or societal issues?
+
+* Given that the data pertains to healthcare costs, clients' physical and geographic information, compliance with GDPR will be essential in real-world projects to ensure data privacy, security, and lawful processing, in accordance with regulations such as obtaining explicit consent and safeguarding sensitive health information
+
 
 ## Unfixed Bugs
-* Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
-* Did you recognise gaps in your knowledge, and how did you address them?
-* If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
+
+* I have no unfixed bugs to report. 
 
 ## Development Roadmap
 
@@ -103,24 +119,24 @@ Day 2 — Analysis, Visualisation & Insights
     * OneHotEncoder
     * LabelEncoder
 
+
+## Conclusion
+
+
+
 ## Credits 
 
-* The Code Institute Learning Management System modules on pandas and data visualisations with Matplotlib,Seaborn and Plotly.
+* [The Code Institute](https://codeinstitute.net/courses/) Learning Management System modules on pandas and data visualisations with Matplotlib,Seaborn and Plotly.
 
 * ChatGPT alongside Microsoft Copilot integrated into Visual Studio Code was used to help with code generation and debugging.
 
 * Template files provided by the course facilitator 
 
-### Content 
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign-Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
+## Media
 
 - The photos used on the home page was downloaded from Google Images
 
 ## Acknowledgements (optional)
-* Thanks to the teaching and support staff at Code Institute.
+
+* Thanks to all the teaching and support staff at Code Institute.
 * Special thanks to Kuminda for clearing the Github roadblock for me.
