@@ -144,14 +144,14 @@ I used Github for the following tasks.
 
 * **Hypothesis 4**: A clear trend shows that insurance charges increase with client age, reflecting the higher health risks older individuals face. Additionally, heavier clients tend to incur higher insurance costs due to the increased risk associated with higher BMI. However, some anomalies exist, such as younger clients with lower BMI categories paying premium rates. One possible explanation for these outliers is that younger, healthy-weight individuals may have pre-existing conditions that elevate their insurance risk and costs. Multiple factors could drive these exceptions, highlighting the complexity of insurance pricing beyond age and BMI alone
 
-![alt text](<assets/images/4th plot - Interactive scatterplot - insurance charge vs age and BMI.jpg>)
+[Insurance costs vs Age & BMI Interactive Plot](<jupyter_notebooks/My Code/Scatterplot.html>)
 
-![alt text](<assets/images/5th plot - Interactive faceted scatterplot - insurance charge vs all variables.jpg>)
+[All Variables Interactive Plot](<jupyter_notebooks/My Code/Interactive Scatterplot.html>)
+
 
 * **Hypothesis 5**: Smoking is clearly a significant contributor to higher healthcare costs, demonstrated by its strong correlation of 0.787 with insurance charges. Age is the next most influential factor, with a moderate correlation of 0.299, indicating that older individuals generally face higher costs. BMI, in contrast, has a weaker correlation, suggesting a lesser impact on insurance charges. Geographic regions show relatively weak negative correlations. These findings underscore that smoking is the most substantial driver of increased insurance costs among the variables analyzed, reflecting its well-documented health risks and associated expenses.
 
-![alt text](<assets/images/6th plot - Correlation Heatmap.jpg>)
-
+[Interactive Correlation heatmap](<jupyter_notebooks/My Code/Correlation Heatmap.html>)
 
 - Overall, the project board performed well. I successfully completed all 'Must Have' tasks, along with a couple of 'Could Have' items. Two tasks have been set aside to be addressed in future improvements to ensure continuous progress and refinement. This approach allowed the project to meet its core objectives while laying the groundwork for ongoing development.
 
