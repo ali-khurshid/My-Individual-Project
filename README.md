@@ -68,8 +68,9 @@ I used Github for the following tasks.
 **Day 2 — Analysis, Visualisation & Insights**
 
 1. Data Visualisation (Matplotlib, Seaborn, Plotly)
-2. Descriptive Statistics & Correlation Analysis 
-3. Key Insights & Recommendations.
+2. Creating a set of hypothesis and validation rules.
+3. Descriptive Statistics & Correlation Analysis 
+4. Key Insights, discussion and conclusion.
 
 
 ## The rationale to map the business requirements to the Data Visualisations
