@@ -17,11 +17,34 @@
 The complete dataset can be found here [Healthcare insurance](<jupyter_notebooks/Source Data/insurance.csv>)
 
 ## Business Requirements
-* Describe your business requirements
+
+* As a healthcare provider, the business will inevitably charge some clients more than others. A key objective is to understand the factors that determine these pricing differences.
+
+* A set of hypothesis will be formulated and tested using tools such as data transformation, feature engineering as well as data visualisation using Python tools such as Matplotlib, Seaborn and PLotly.
 
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them) 
+
+* **Hypothesis 1**: Smoking affects body fat distribution, increasing abdominal fat and influencing BMI. This variation in BMI induced by smoking contributes to differences in health insurance costs
+
+*Validation* : In Python, create BMI categories based on NHS guidelines and analyze their relationship with smoking status.
+
+* **Hypothesis 2**: Body Mass Index (BMI) category significantly impacts insurance charges, as BMI often serves as a proxy for health risk in insurance calculations.
+
+*Validation* : Analyze how insurance charges vary across different NHS-defined BMI categories to understand the impact of body weight on insurance costs
+
+* **Hypothesis 3**: Clients residing in certain geographic locations incur higher insurance costs, potentially due to regional healthcare costs, risk profiles, or socioeconomic factors.
+
+*Validation* : Analyze how insurance charges vary across different geographic locations to identify regions where costs are significantly higher compared to others.
+
+* **Hypothesis** 4: Age has a strong correlation with insurance charges, reflecting increased health risk and medical costs as clients get older.
+
+*Validation* : Analyze how insurance charges vary across the ages presented in the dataset to determine if increased age corresponds with higher health risks and insurance costs
+
+* **Hypothesis 5**: Smoking status is a primary driver of higher insurance charges, with age acting as an additional compounding factor.
+
+*Validation* : Examine how insurance charges vary based on both smoking status and age in the dataset to assess whether these factors are associated with increased health risks and higher insurance costs
+
 
 ## Project Plan
 * Outline the high-level steps taken for the analysis.
