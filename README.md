@@ -20,7 +20,7 @@ The complete dataset can be found here [Healthcare insurance](<jupyter_notebooks
 
 * As a healthcare provider, the business will inevitably charge some clients more than others. A key objective is to understand the factors that determine these pricing differences.
 
-* A set of hypothesis will be formulated and tested using tools such as data transformation, feature engineering as well as data visualisation using Python tools such as Matplotlib, Seaborn and PLotly.
+* A set of hypothesis will be formulated and tested using tools such as data transformation, feature engineering as well as data visualisation using Python tools such as Matplotlib, Seaborn and Plotly.
 
 
 ## Hypothesis and how to validate?
@@ -47,9 +47,25 @@ The complete dataset can be found here [Healthcare insurance](<jupyter_notebooks
 
 
 ## Project Plan
-* Outline the high-level steps taken for the analysis.
-* How was the data managed throughout the collection, processing, analysis and interpretation steps?
-* Why did you choose the research methodologies you used?
+
+I used Github for the following tasks.
+
+* Project Board to help me plan and keep track of my progress
+* Regularly push my updated code to my Githuib repo.
+
+Day 1 — Data Understanding & Preparation
+ 
+1. Import and Inspect the Dataset
+2. Data Cleaning and Pre-processing
+3. Exploratory Data Analysis (EDA)
+4. Feature Engineering
+
+Day 2 — Analysis, Visualisation & Insights
+
+1. Data Visualisation (Matplotlib, Seaborn, Plotly)
+2. Descriptive Statistics & Correlation Analysis 
+3. Key Insights & Recommendations.
+
 
 ## The rationale to map the business requirements to the Data Visualisations
 * List your business requirements and a rationale to map them to the Data Visualisations
@@ -70,17 +86,30 @@ The complete dataset can be found here [Healthcare insurance](<jupyter_notebooks
 * If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
 
 ## Development Roadmap
-* What challenges did you face, and what strategies were used to overcome these challenges?
-* What new skills or tools do you plan to learn next based on your project experience? 
+
+* I encountered difficulties getting Plotly graphs to work due to a missing nbformat file. Using Microsoft Copilot, I discovered that a pip update was necessary to resolve the issue.
+
+* Additionally, I faced a roadblock with Git commands returning errors. Kuminda assisted me by demonstrating an alternative approach and updating my Git main branch, which successfully resolved the problem
+
 
 ## Main Data Analysis Libraries
-* Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
 
+* Pandas
+* Numpy
+* Matplotlib
+* Seaborn
+* Plotly
+* Sklearn Pre Processing
+    * OneHotEncoder
+    * LabelEncoder
 
 ## Credits 
 
-* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
+* The Code Institute Learning Management System modules on pandas and data visualisations with Matplotlib,Seaborn and Plotly.
+
+* ChatGPT alongside Microsoft Copilot integrated into Visual Studio Code was used to help with code generation and debugging.
+
+* Template files provided by the course facilitator 
 
 ### Content 
 
@@ -90,10 +119,8 @@ The complete dataset can be found here [Healthcare insurance](<jupyter_notebooks
 
 ### Media
 
-- The photos used on the home and sign-up page are from This Open-Source site
-- The images used for the gallery page were taken from this other open-source site
-
-
+- The photos used on the home page was downloaded from Google Images
 
 ## Acknowledgements (optional)
-* Thank the people who provided support through this project.
+* Thanks to the teaching and support staff at Code Institute.
+* Special thanks to Kuminda for clearing the Github roadblock for me.
