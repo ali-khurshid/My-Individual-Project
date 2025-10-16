@@ -161,7 +161,7 @@ The following links will open in a web browser (preferably Chrome) to provide an
 
 ![alt text](<assets/images/6th plot - Correlation Heatmap.jpg>)
 
-Here is the link to will provide an interactive experience with the Correlation heatmap. [Interactive Correlation heatmap](<jupyter_notebooks/My Code/Correlation Heatmap.html>)
+Here is the link that will provide an interactive experience with the Correlation heatmap. [Interactive Correlation heatmap](<jupyter_notebooks/My Code/Correlation Heatmap.html>)
 
 - Overall, the project board performed well. I successfully completed all 'Must Have' tasks, along with a couple of 'Could Have' items. Two tasks have been set aside to be addressed in future improvements to ensure continuous progress and refinement. This approach allowed the project to meet its core objectives while laying the groundwork for ongoing development.
 
