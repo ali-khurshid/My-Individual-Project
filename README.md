@@ -117,7 +117,7 @@ I used Github for the following tasks.
 
 ## Discussion and Conclusion
 
-**Note** - *Over one hundred outliers have been identified, representing less than 10% of the dataset. After careful consideration, the decision was made to retain these outliers in their original state to preserve the integrity and variability of the data. Removing or altering outliers without clear justification can risk loss of valuable information or introduce bias. Therefore, they remain unchanged for further analysis.*
+**Note** - *Over one hundred outliers have been identified, representing less than 10% of the dataset. After careful consideration, the decision was made to retain these outliers in their original state to preserve the integrity and variability of the data. Removing or altering outliers without clear justification can risk loss of valuable information or introduce bias as these could point to additional unknown factors, such as pre-existing illness for example diabetes, high blood pressure etc. Therefore, they remain unchanged for further analysis.*
 
 * **Hypothesis 1** was debunked --> Smoking is not a driving force for weight gain.
 
