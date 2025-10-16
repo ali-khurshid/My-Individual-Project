@@ -75,28 +75,25 @@ I used Github for the following tasks.
 
 ## The rationale to map the business requirements to the Data Visualisations
 
-* The **first visualization** is a bar chart showing smoker and non-smoker counts across BMI categories—Underweight, Normal, Overweight, and Obese—highlighting the relationship between smoking status and BMI.
-
-* The **second visualization** is a boxplot comparing insurance charges between smokers and non-smokers, highlighting differences in distribution and median costs. This helps reveal the significant impact smoking status has on insurance expenses. 
-
-* The **third visualization** is a boxplot comparing insurance charges across geographic locations, highlighting differences in median, interquartile range, and outliers. This helps assess the impact of location on insurance costs.
-
-* The **fourth visualization** is a scatterplot that illustrates how age and BMI together influence insurance costs. It reveals trends such as whether increasing age and BMI are associated with higher charges. Additionally, this plot helps identify clusters or anomalies, offering insights into extended risk factors beyond the known variables.
-
-* The **fifth visualization** is a faceted scatterplot that groups multiple categorical and numerical variables—such as smoker status, BMI category, age group, and geographic location—to confirm and reinforce patterns observed in previous visualizations. By displaying these variables simultaneously, it provides a comprehensive view of the data, helping to validate earlier findings and uncover any additional insights. This approach enhances understanding by revealing how different factors interact and contribute to insurance costs, making it a valuable tool for thorough risk assessment and data interpretation.
-
-* The **sixth and final visualization** is a correlation heatmap that definitively shows which variables have the strongest impact on insurance charges versus those with weak or no correlation. By color-coding correlation coefficients, this heatmap clearly highlights key predictors—such as age, BMI, and smoking status—that significantly influence insurance costs, while also identifying variables with minimal effect. This visual tool is essential for confirming relationships found in prior analyses and guiding targeted strategies in insurance risk assessment and pricing
-
+| Hypothesis                                                      | Visualization       | Description                                                                                  | Insights Highlighted                                                                                  |
+|-----------------------------------------------------------------|---------------------|----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| Smoking status distribution varies significantly across BMI categories. | Bar Chart           | Shows smoker and non-smoker counts across BMI categories (Underweight, Normal, Overweight, Obese) | Highlights the relationship between smoking status and BMI                                         |
+| Smokers have higher insurance charges than non-smokers.         | Boxplot (Smoker Status)  | Compares insurance charges between smokers and non-smokers                                   | Reveals differences in distribution and median costs; impact of smoking on expenses                 |
+| Insurance charges vary minimally by geographic location.         | Boxplot (Location)     | Compares insurance charges across geographic locations                                        | Shows differences in median, IQR, and outliers; assesses the impact of location                      |
+| Higher age and BMI correlate with increased insurance charges.  | Scatterplot (Age & BMI) | Plots age and BMI against insurance costs                                                    | Explores how both variables influence charges; identifies clusters and anomalies                     |
+| Combined risk factors have a compounded effect on insurance costs. | Faceted Scatterplot   | Groups by smoker status, BMI, age group, and location                                         | Confirms previous patterns; visualizes interaction of multiple variables                             |
+| Smoking status, age, and BMI are the strongest predictors.       | Correlation Heatmap   | Shows variable correlations with insurance charges                                            | Identifies strongest predictors and variables with little effect                                    |
+                
 
 ## Analysis techniques used
 
-* Performed extract, transform, and feature engineering tasks using Jupyter notebooks.
+* Performed data extraction, inspection, transformation, and feature engineering tasks using Jupyter notebooks.
 
 * Created new columns in the DataFrame, such as BMI category and Age Group, utilizing custom functions and pandas methods.
 
 * Engineered categorical variables to prepare the data for visualization, specifically for a Plotly correlation heatmap.
 
-* Developed various visualizations including bar charts, scatter plots, box plots, and heatmap correlation maps to explore relationships within the data. The charts were updated in size with axes labeling and titles.
+* Developed various visualizations including bar charts, scatter plots, box plots, and heat correlation maps to explore relationships within the data. The charts were updated in size with axes labeling and titles.
 
 
 ## Ethical considerations
