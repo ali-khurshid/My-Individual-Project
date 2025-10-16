@@ -1,4 +1,10 @@
-# Healthcare Insurance - My First Individual project
+<h1 align="center">
+Healthcare Insurance - My First Individual project
+</h2>
+<h2 align="center">
+by Ali Khurshid
+</h2>
+
 
 # ![alt text](assets/images/data-analytics-charts.jpg)
 
