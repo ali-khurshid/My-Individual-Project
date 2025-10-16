@@ -126,7 +126,27 @@ Day 2 — Analysis, Visualisation & Insights
 
 ## Conclusion
 
+* Hypothesis 1 was debunked --> Smoking is not a driving force for weight gain.
 
+![alt text](<assets/images/1st Plot - Smoker Status vs BMI.jpg>)
+
+* Hypothesis 2: There is a clear trend between increased insurance charges and increasing BMI categories, however it is yet to be seen how strong a correlation this is.
+
+![alt text](<assets/images/2nd plot - Insurance charges vs Smokers and BMI.jpg>)
+
+* Hypothesis 3 was also debunked --> Geographic location has little to no impact on insurance charges.
+
+![alt text](<assets/images/3rd plot - Insurance charges vs location.jpg>)
+
+* Hypothesis 4: A clear trend shows that insurance charges increase with client age, reflecting the higher health risks older individuals face. Additionally, heavier clients tend to incur higher insurance costs due to the increased risk associated with higher BMI. However, some anomalies exist, such as younger clients with lower BMI categories paying premium rates. One possible explanation for these outliers is that younger, healthy-weight individuals may have pre-existing conditions that elevate their insurance risk and costs. Multiple factors could drive these exceptions, highlighting the complexity of insurance pricing beyond age and BMI alone
+
+![alt text](<assets/images/4th plot - Interactive scatterplot - insurance charge vs age and BMI.jpg>)
+
+![alt text](<assets/images/5th plot - Interactive faceted scatterplot - insurance charge vs all variables.jpg>)
+
+* Hypothesis 5: Smoking is definitively a major factor increasing healthcare costs, as evidenced by its strong correlation of 0.787 with insurance charges. Age follows with a moderate correlation of 0.299, indicating that older clients generally incur higher costs. In comparison, BMI shows a weaker correlation, suggesting it has less influence on insurance charges relative to smoking and age. These correlations align with the extensive evidence that smoking significantly elevates healthcare expenses due to its association with numerous chronic illnesses, making it the strongest driver among the variables considered.
+
+![alt text](<assets/images/6th plot - Correlation Heatmap.jpg>)
 
 ## Credits 
 
