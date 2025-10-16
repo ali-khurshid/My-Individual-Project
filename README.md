@@ -26,13 +26,13 @@ The complete dataset can be found here [Healthcare insurance](<jupyter_notebooks
 
 ## Hypothesis and Validation
 
-Hypothesis number  |  Hypothesis description                                                                                                                                    |  Validation method                                                                                                  
--------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------
-1                  |  Smoking affects body fat distribution, increasing abdominal fat and influencing BMI, contributing to differences in health insurance costs.               |  In Python, create BMI categories based on NHS guidelines and analyze their relationship with smoking status.       
-2                  |  Body Mass Index (BMI) category significantly impacts insurance charges, as BMI serves as a proxy for health risk in insurance calculations.               |  Analyze how insurance charges vary across different NHS-defined BMI categories to understand BMI’s impact.         
-3                  |  Clients residing in certain geographic locations incur higher insurance costs due to regional healthcare costs, risk profiles, or socioeconomic factors.  |  Analyze how insurance charges vary across geographic locations to identify regions with significantly higher costs.
-4                  |  Age strongly correlates with insurance charges, reflecting increased health risks and medical costs as clients age.                                       |  Analyze insurance charge variation across ages to determine the relationship between age and insurance costs.      
-5                  |  Smoking status is a primary driver of higher insurance charges, with age acting as an additional compounding factor.                                      |  Examine insurance charges by smoking status and age to assess their combined effect on health risks and costs.     
+| Hypothesis number | Hypothesis description | Validation method |
+|-------------------|------------------------|--------------------|
+|1 | Smoking affects body fat distribution, increasing abdominal fat and influencing BMI, contributing to differences in health insurance costs. | In Python, create BMI categories based on NHS guidelines and analyze their relationship with smoking status. |
+|2 | Body Mass Index (BMI) category significantly impacts insurance charges, as BMI serves as a proxy for health risk in insurance calculations. | Analyze how insurance charges vary across different NHS-defined BMI categories to understand BMI’s impact. |
+|3 | Clients residing in certain geographic locations incur higher insurance costs due to regional healthcare costs, risk profiles, or socioeconomic factors. | Analyze how insurance charges vary across geographic locations to identify regions with significantly higher costs.|
+| 4 | Age strongly correlates with insurance charges, reflecting increased health risks and medical costs as clients age. | Analyze insurance charge variation across ages to determine the relationship between age and insurance costs. |
+|5 | Smoking status is a primary driver of higher insurance charges, with age acting as an additional compounding factor. | Examine insurance charges by smoking status and age to assess their combined effect on health risks and costs.|
 
 
 ## Project Plan
