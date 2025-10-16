@@ -26,25 +26,13 @@ The complete dataset can be found here [Healthcare insurance](<jupyter_notebooks
 
 ## Hypothesis and Validation
 
-* **Hypothesis 1**: Smoking affects body fat distribution, increasing abdominal fat and influencing BMI. This variation in BMI induced by smoking contributes to differences in health insurance costs
-
-*Validation* : In Python, create BMI categories based on NHS guidelines and analyze their relationship with smoking status.
-
-* **Hypothesis 2**: Body Mass Index (BMI) category significantly impacts insurance charges, as BMI often serves as a proxy for health risk in insurance calculations.
-
-*Validation* : Analyze how insurance charges vary across different NHS-defined BMI categories to understand the impact of body weight on insurance costs
-
-* **Hypothesis 3**: Clients residing in certain geographic locations incur higher insurance costs, potentially due to regional healthcare costs, risk profiles, or socioeconomic factors.
-
-*Validation* : Analyze how insurance charges vary across different geographic locations to identify regions where costs are significantly higher compared to others.
-
-* **Hypothesis** 4: Age has a strong correlation with insurance charges, reflecting increased health risk and medical costs as clients get older.
-
-*Validation* : Analyze how insurance charges vary across the ages presented in the dataset to determine if increased age corresponds with higher health risks and insurance costs
-
-* **Hypothesis 5**: Smoking status is a primary driver of higher insurance charges, with age acting as an additional compounding factor.
-
-*Validation* : Examine how insurance charges vary based on both smoking status and age in the dataset to assess whether these factors are associated with increased health risks and higher insurance costs
+Hypothesis number  |  Hypothesis description                                                                                                                                    |  Validation method                                                                                                  
+-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------
+1                  |  Smoking affects body fat distribution, increasing abdominal fat and influencing BMI, contributing to differences in health insurance costs.               |  In Python, create BMI categories based on NHS guidelines and analyze their relationship with smoking status.       
+2                  |  Body Mass Index (BMI) category significantly impacts insurance charges, as BMI serves as a proxy for health risk in insurance calculations.               |  Analyze how insurance charges vary across different NHS-defined BMI categories to understand BMI’s impact.         
+3                  |  Clients residing in certain geographic locations incur higher insurance costs due to regional healthcare costs, risk profiles, or socioeconomic factors.  |  Analyze how insurance charges vary across geographic locations to identify regions with significantly higher costs.
+4                  |  Age strongly correlates with insurance charges, reflecting increased health risks and medical costs as clients age.                                       |  Analyze insurance charge variation across ages to determine the relationship between age and insurance costs.      
+5                  |  Smoking status is a primary driver of higher insurance charges, with age acting as an additional compounding factor.                                      |  Examine insurance charges by smoking status and age to assess their combined effect on health risks and costs.     
 
 
 ## Project Plan
@@ -162,7 +150,9 @@ The following links will open in a web browser (preferably Chrome) to provide an
 
 Here is the link that will provide an interactive experience with the Correlation heatmap. [Interactive Correlation heatmap](<jupyter_notebooks/My Code/Correlation Heatmap.html>)
 
-- Overall, the project board performed well. I successfully completed all 'Must Have' tasks, along with a couple of 'Could Have' items. Two tasks have been set aside to be addressed in future improvements to ensure continuous progress and refinement. This approach allowed the project to meet its core objectives while laying the groundwork for ongoing development.
+### **Progress Summary**
+
+Overall, the project board performed well. I successfully completed all 'Must Have' tasks, along with a couple of 'Could Have' items. Two tasks have been set aside to be addressed in future improvements to ensure continuous progress and refinement. This approach allowed the project to meet its core objectives while laying the groundwork for ongoing development.
 
 ![alt text](<assets/images/Project Board final.jpg>)
 
