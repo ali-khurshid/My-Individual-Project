@@ -101,7 +101,9 @@ I used Github for the following tasks.
 
 ## Ethical considerations
 
-* Given that the data pertains to healthcare costs, clients' physical and geographic information, compliance with GDPR will be essential in real-world projects to ensure data privacy, security, and lawful processing, in accordance with regulations such as obtaining explicit consent and safeguarding sensitive health information
+* Since the data is anonymized, there is no risk of exposing personal information to the public. Additionally, because the data pertains to individuals residing in the USA, the data protection regulations under the UK and EU GDPR do not apply in this case.
+
+* The age distribution is skewed toward younger individuals, which may introduce bias and limit the reliability of advanced data analytics methods, such as machine learning models. This imbalance can reduce model generalizability and lead to underperformance when predicting outcomes for older populations
 
 
 ## Unfixed Bugs
