@@ -167,14 +167,14 @@ Overall, the project board performed well. I successfully completed all 'Must Ha
 
 * [The Code Institute](https://codeinstitute.net/courses/) Learning Management System modules on pandas and data visualisations with Matplotlib,Seaborn and Plotly.
 
-* ChatGPT alongside Microsoft Copilot integrated into Visual Studio Code was used to help with code generation and debugging.
+* [ChatGPT](https://chatgpt.com/) alongside [Microsoft Copilot](https://copilot.microsoft.com/) integrated into Visual Studio Code was used to help with code generation and debugging.
 
 * Template files provided by the course facilitator 
 
 
 ## Media
 
-- [Google Images](https://www.google.com/search?q=google+images&oq=google+images&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORixAxiABDIHCAEQABiABDIKCAIQABixAxiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiPAtIBCDE2NjZqMWo3qAIIsAIB8QVuTNGH65UllA&sourceid=chrome&ie=UTF-8)The photo used on the home page was downloaded from Google Images, which is an open source site.
+- [Google Images](https://www.google.com/search?q=google+images&oq=google+images&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORixAxiABDIHCAEQABiABDIKCAIQABixAxiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiPAtIBCDE2NjZqMWo3qAIIsAIB8QVuTNGH65UllA&sourceid=chrome&ie=UTF-8) The photo used on the home page was downloaded from Google Images, which is an open source site.
 
 - [Kaggle](https://www.kaggle.com/datasets/sureshgupta/health-insurance-data-set) Online library for my dataset
 
