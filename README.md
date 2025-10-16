@@ -39,7 +39,7 @@ The complete dataset can be found here [Healthcare insurance](<jupyter_notebooks
 
 I used Github for the following tasks.
 
-* Regularly push my updated code to [Github repo](https://github.com/ali-khurshid/My-Individual-Project)
+* Regularly push my updated code, README document and images to [Github repo](https://github.com/ali-khurshid/My-Individual-Project)
 
 * [Project Board](https://github.com/users/ali-khurshid/projects/2) to help me plan and keep track of my progress
 
