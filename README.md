@@ -50,8 +50,12 @@ The complete dataset can be found here [Healthcare insurance](<jupyter_notebooks
 
 I used Github for the following tasks.
 
-* [Project Board](https://github.com/users/ali-khurshid/projects/2) to help me plan and keep track of my progress
 * Regularly push my updated code to [Github repo](https://github.com/ali-khurshid/My-Individual-Project)
+
+* [Project Board](https://github.com/users/ali-khurshid/projects/2) to help me plan and keep track of my progress
+
+![alt text](<assets/images/Project Board - Start.jpg>)
+
 
 Day 1 — Data Understanding & Preparation
  
