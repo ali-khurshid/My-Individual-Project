@@ -168,7 +168,7 @@ I used Github for the following tasks.
 
 ## Media
 
-- The photos used on the home page was downloaded from Google Images, which is an opens source site.
+- The photo used on the home page was downloaded from Google Images, which is an opens source site.
 
 
 ## Acknowledgements
