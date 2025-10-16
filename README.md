@@ -148,16 +148,18 @@ I used Github for the following tasks.
 
 ![alt text](<assets/images/5th plot - Interactive faceted scatterplot - insurance charge vs all variables.jpg>)
 
-[Insurance costs vs Age & BMI Interactive Plot](<jupyter_notebooks/My Code/Scatterplot.html>)
+The following links will open in a web browser (preferably Chrome) to provide an interactive experience with the generated graphs.
 
-[All Variables Interactive Plot](<jupyter_notebooks/My Code/Interactive Scatterplot.html>)
+[Insurance costs vs Age & BMI - Interactive Plot](<jupyter_notebooks/My Code/Scatterplot.html>)
+
+[Insurance costs vs BMI category, Region and Smoker Status](<jupyter_notebooks/My Code/Interactive Scatterplot.html>)
 
 
 * **Hypothesis 5**: Smoking is clearly a significant contributor to higher healthcare costs, demonstrated by its strong correlation of 0.787 with insurance charges. Age is the next most influential factor, with a moderate correlation of 0.299, indicating that older individuals generally face higher costs. BMI, in contrast, has a weaker correlation, suggesting a lesser impact on insurance charges. Geographic regions show relatively weak negative correlations. These findings underscore that smoking is the most substantial driver of increased insurance costs among the variables analyzed, reflecting its well-documented health risks and associated expenses.
 
 ![alt text](<assets/images/6th plot - Correlation Heatmap.jpg>)
 
-[Interactive Correlation heatmap](<jupyter_notebooks/My Code/Correlation Heatmap.html>)
+Here is the link to will provide an interactive experience with the Correlation heatmap. [Interactive Correlation heatmap](<jupyter_notebooks/My Code/Correlation Heatmap.html>)
 
 - Overall, the project board performed well. I successfully completed all 'Must Have' tasks, along with a couple of 'Could Have' items. Two tasks have been set aside to be addressed in future improvements to ensure continuous progress and refinement. This approach allowed the project to meet its core objectives while laying the groundwork for ongoing development.
 
