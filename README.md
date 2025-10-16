@@ -16,6 +16,7 @@
 
 The complete dataset can be found here [Healthcare insurance](<jupyter_notebooks/Source Data/insurance.csv>)
 
+
 ## Business Requirements
 
 * As a healthcare provider, the business will inevitably charge some clients more than others. A key objective is to understand the factors that determine these pricing differences.
@@ -57,14 +58,14 @@ I used Github for the following tasks.
 ![alt text](<assets/images/Project Board - Start.jpg>)
 
 
-Day 1 — Data Understanding & Preparation
+**Day 1 — Data Understanding & Preparation**
  
 1. Import and Inspect the Dataset
 2. Data Cleaning and Pre-processing
 3. Exploratory Data Analysis (EDA)
 4. Feature Engineering
 
-Day 2 — Analysis, Visualisation & Insights
+**Day 2 — Analysis, Visualisation & Insights**
 
 1. Data Visualisation (Matplotlib, Seaborn, Plotly)
 2. Descriptive Statistics & Correlation Analysis 
@@ -85,6 +86,7 @@ Day 2 — Analysis, Visualisation & Insights
 
 * The **sixth and final visualization** is a correlation heatmap that definitively shows which variables have the strongest impact on insurance charges versus those with weak or no correlation. By color-coding correlation coefficients, this heatmap clearly highlights key predictors—such as age, BMI, and smoking status—that significantly influence insurance costs, while also identifying variables with minimal effect. This visual tool is essential for confirming relationships found in prior analyses and guiding targeted strategies in insurance risk assessment and pricing
 
+
 ## Analysis techniques used
 
 * Performed extract, transform, and feature engineering tasks using Jupyter notebooks.
@@ -104,6 +106,7 @@ Day 2 — Analysis, Visualisation & Insights
 ## Unfixed Bugs
 
 * I have no unfixed bugs to report. 
+
 
 ## Development Roadmap
 
@@ -126,27 +129,33 @@ Day 2 — Analysis, Visualisation & Insights
 
 ## Conclusion
 
-* Hypothesis 1 was debunked --> Smoking is not a driving force for weight gain.
+* **Hypothesis 1** was debunked --> Smoking is not a driving force for weight gain.
 
 ![alt text](<assets/images/1st Plot - Smoker Status vs BMI.jpg>)
 
-* Hypothesis 2: There is a clear trend between increased insurance charges and increasing BMI categories, however it is yet to be seen how strong a correlation this is.
+* **Hypothesis 2**: There is a strong trend showing that smoking significantly increases insurance charges, with a well-documented positive correlation due to the elevated health risks smokers face. Increasing BMI categories also show a pattern of higher charges, although their impact is generally weaker compared to smoking. The exact strength of the correlation between BMI and insurance costs requires further verification, but it is clear that BMI contributes to risk assessment alongside smoking.
 
 ![alt text](<assets/images/2nd plot - Insurance charges vs Smokers and BMI.jpg>)
 
-* Hypothesis 3 was also debunked --> Geographic location has little to no impact on insurance charges.
+* **Hypothesis 3** was also debunked --> Geographic location has minimal impact on insurance charges when comparing median values across regions. However, variations in interquartile ranges suggest other factors influence costs within each area. Additionally, the presence of several outliers indicates that individual circumstances or additional variables contribute to the variability in insurance charges beyond geographic location alone. 
 
 ![alt text](<assets/images/3rd plot - Insurance charges vs location.jpg>)
 
-* Hypothesis 4: A clear trend shows that insurance charges increase with client age, reflecting the higher health risks older individuals face. Additionally, heavier clients tend to incur higher insurance costs due to the increased risk associated with higher BMI. However, some anomalies exist, such as younger clients with lower BMI categories paying premium rates. One possible explanation for these outliers is that younger, healthy-weight individuals may have pre-existing conditions that elevate their insurance risk and costs. Multiple factors could drive these exceptions, highlighting the complexity of insurance pricing beyond age and BMI alone
+* **Hypothesis 4**: A clear trend shows that insurance charges increase with client age, reflecting the higher health risks older individuals face. Additionally, heavier clients tend to incur higher insurance costs due to the increased risk associated with higher BMI. However, some anomalies exist, such as younger clients with lower BMI categories paying premium rates. One possible explanation for these outliers is that younger, healthy-weight individuals may have pre-existing conditions that elevate their insurance risk and costs. Multiple factors could drive these exceptions, highlighting the complexity of insurance pricing beyond age and BMI alone
 
 ![alt text](<assets/images/4th plot - Interactive scatterplot - insurance charge vs age and BMI.jpg>)
 
 ![alt text](<assets/images/5th plot - Interactive faceted scatterplot - insurance charge vs all variables.jpg>)
 
-* Hypothesis 5: Smoking is definitively a major factor increasing healthcare costs, as evidenced by its strong correlation of 0.787 with insurance charges. Age follows with a moderate correlation of 0.299, indicating that older clients generally incur higher costs. In comparison, BMI shows a weaker correlation, suggesting it has less influence on insurance charges relative to smoking and age. These correlations align with the extensive evidence that smoking significantly elevates healthcare expenses due to its association with numerous chronic illnesses, making it the strongest driver among the variables considered.
+* **Hypothesis 5**: Smoking is clearly a significant contributor to higher healthcare costs, demonstrated by its strong correlation of 0.787 with insurance charges. Age is the next most influential factor, with a moderate correlation of 0.299, indicating that older individuals generally face higher costs. BMI, in contrast, has a weaker correlation, suggesting a lesser impact on insurance charges. Geographic regions show relatively weak negative correlations. These findings underscore that smoking is the most substantial driver of increased insurance costs among the variables analyzed, reflecting its well-documented health risks and associated expenses.
 
 ![alt text](<assets/images/6th plot - Correlation Heatmap.jpg>)
+
+
+- Overall, the project board performed well. I successfully completed all 'Must Have' tasks, along with a couple of 'Could Have' items. Two tasks have been set aside to be addressed in future improvements to ensure continuous progress and refinement. This approach allowed the project to meet its core objectives while laying the groundwork for ongoing development.
+
+![alt text](<assets/images/Project Board final.jpg>)
+
 
 ## Credits 
 
@@ -156,11 +165,13 @@ Day 2 — Analysis, Visualisation & Insights
 
 * Template files provided by the course facilitator 
 
+
 ## Media
 
-- The photos used on the home page was downloaded from Google Images
+- The photos used on the home page was downloaded from Google Images, which is an opens source site.
 
-## Acknowledgements (optional)
+
+## Acknowledgements
 
 * Thanks to all the teaching and support staff at Code Institute.
 * Special thanks to Kuminda for clearing the Github roadblock for me.
